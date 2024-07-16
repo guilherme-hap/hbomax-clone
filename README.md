@@ -10,7 +10,7 @@
   O clone do site HBO Max serve como desafio para os alunos da plataforma testarem seus conhecimentos e colocarem em prática os recursos de HTML e CSS abordados nos cursos.
 </p>
 
-<a href="https://micheleambrosio.github.io/hbomax/">
+<a href="https://guilherme-hap.github.io/hbomax-clone/">
   <img src="./assets/images/readme-images/cover-2.png">
 </a>
 
@@ -20,7 +20,7 @@
 - [📦 Temas abordados](#topics)
 - [🏆 Desafio](#challenges)
 - [🌈 Demonstração](#demo)
-- [💻 Autora](#author)
+- [💻 Autora do desafio](#author)
 
 <h2 id="features">✨ Features</h2>
 
@@ -52,68 +52,7 @@ Recursos CSS presentes no projeto:
 
 <h2 id="challenges">🏆 Desafio</h2>
 
-Como parte do desafio final da Trilha de CSS, o desenvolvedor deve reproduzir [esse projeto](https://micheleambrosio.github.io/hbomax/), sem realizar uma consulta do código final do site, presente na branch `master` deste repositório.
-
-Para auxiliar na reprodução, utilize a branch `template-desafio`. Faça um fork do projeto em sua conta do GitHub.
-
-Dentro da branch `template-desafio`, você encontrará na pasta `assets/images` todos os arquivos de imagens que você irá precisar para utilizar no projeto.
-
-Caso deseje, adicione as variáveis CSS abaixo, que contém todas as cores e gradientes utilizados no projeto:
-
-```css
-  :root {
-    --primary-color: #020228;
-    --secondary-color: #ff00e5;
-    --tertiary-color: #b535f6;
-    --btn-bg-color-gradient: linear-gradient(
-      45deg,
-      #9b34ef 0%,
-      #490cb0 20%,
-      transparent 50%
-    );
-    --btn-link-bg-color: #fff;
-    --btn-link-color: #000;
-    --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
-    --divider-bg-color: linear-gradient(
-      90deg,
-      #5516ba,
-      rgba(255, 0, 229, 0.5) 80%
-    );
-    --nav-bg-color: rgba(0, 0, 0, 0.3);
-    --text-color: #fff;
-    --link-color: #9e86ff;
-    --form-bg-color: rgba(211, 211, 211, 0.06);
-    --form-field-bg-color: rgba(0, 0, 0, 0.2);
-    --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
-    --form-field-placeholder: rgba(255, 255, 255, 0.7);
-    --form-field-error: rgb(255, 76, 76);
-
-    scroll-behavior: smooth;
-  }
-```
-
-*A propriedade `scroll-behavior: smooth` irá fazer com que os links que levam para uma outra sessão do site, da mesma página, faça uma transição suave ao realizar a rolagem.*
-
-Para implementar a barra de rolagem personalizada, como no exemplo, adicione na sua folha de estilos o seguinte trecho CSS:
-
-```css
-  /* Custom Scroll */
-
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: var(--tertiary-color);
-    border-radius: 10px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary-color);
-  }
-```
-
-O resultado final do projeto deve contemplar todas as [features](#features) presentes no <a href="https://micheleambrosio.github.io/hbomax/">resultado final</a>.
+Como parte do desafio final da Trilha de CSS, o desenvolvedor deve reproduzir [esse projeto](https://micheleambrosio.github.io/hbomax/), sem realizar uma consulta do código final do site.
 
 As fontes utilizadas no projeto foram:
 
@@ -125,15 +64,12 @@ As fontes utilizadas no projeto foram:
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
 ```
 
-*Para melhor orientação, assista ao vídeo de instruções do desafio, que está disponibilizado no Módulo 3 da Trilha de CSS.*
-
-
 <h2 id="demo">🌈 Demonstração</h2>
 
-Você pode acessar ao resultado final do projeto [clicando aqui](https://micheleambrosio.github.io/hbomax/).
+Você pode acessar ao resultado final do projeto [clicando aqui](https://guilherme-hap.github.io/hbomax-clone/).
 
 
-<h2 id="author">💻 Autora</h2>
+<h2 id="author">💻 Autora do desafio</h2>
 <p>
     <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
     <p>&nbsp&nbsp&nbspMichele Queiroz Ambrosio<br>
