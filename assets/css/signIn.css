@@ -70,4 +70,21 @@ body {
     text-decoration: none;
     margin-left: 24px;
     font-weight: bold;
-  }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+    body {
+        height: auto;
+    }
+
+    .login__actions .button {
+        display: block;
+        margin-bottom: 24px;
+    }
+    
+    .login__link {
+        margin: 0;
+    }
+}
